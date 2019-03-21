@@ -1,12 +1,8 @@
 css
 
-.jumbotron {
-  padding: $jumbotron-padding ($jumbotron-padding / 2);
-  margin-bottom: $jumbotron-padding;
-  background-color: $jumbotron-bg;
-  @include border-radius($border-radius-lg);
-
-  @include media-breakpoint-up(sm) {
-    padding: ($jumbotron-padding * 2) $jumbotron-padding;
-  }
+.topbox {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: green;
+    border-radius: .3rem;
 }
