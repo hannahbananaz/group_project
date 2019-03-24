@@ -22,3 +22,12 @@ h1 {
   font-size: 55px;
   color: red;
 }
+
+.fa {
+  padding: 50px;
+  font-size: 80px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
