@@ -7,10 +7,34 @@
   href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
   <link rel="stylesheet" type="text/css" href="css\styles.css">
 </head>
+<style>
+body {
+  background-color: white;
+  font-family: cursive;
+}
 
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+</style>
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+  <h1 class="glow"><center> The Manchester Food Scene</center> </h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -25,7 +49,8 @@
       </div>
     </div>
   </nav>
-  <h1><center> The Manchester Food Scene</center> </h1>
+<br>
+</br>
   <p>This website provides some examples of amazing nights out in Manchester whether you want a cheap night out, a vegan night or want to celebrate a special occassion. Each page has three suggestions on where you could go to eat. Please see our thoughts on:
   </p>
   <ol>
